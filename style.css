@@ -5,21 +5,25 @@ body {
   h1{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
   }
 
   h2{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(71, 46, 18);
+    color: rgb(47, 29, 8);
+    font-size: 30px;
     }
 
     h3{
       font-family: Arial, Helvetica, sans-serif;
-      color: rgb(71, 46, 18);
+      color: rgb(80, 56, 29);
+      font-size: 25px;
       }
 
       h4{
         font-family: Arial, Helvetica, sans-serif;
-        color: rgb(71, 46, 18);
+        color: rgb(92, 66, 36);
+        font-size: 20px;
         }
 
   p{
@@ -30,7 +34,10 @@ body {
   }
 
   div{
-    padding: 20px;
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   ul{
@@ -46,25 +53,26 @@ body {
   }
 
   header {
-    background-color: rgb(214, 216, 255);
-    color:rgb(31, 55, 76);
-    padding: 15px;
-    border: 3px solid rgb(83, 114, 139);
+    background-color: rgb(215, 232, 250);
+    color:rgb(42, 86, 124);
+    border: 2px solid rgb(42, 86, 124);
+    padding: 10px;
+    border-radius: 8px;
     font-size: 20px;
   }
 
   button {
     background-color: rgb(255, 245, 214); 
-    border: 3px solid rgb(83, 69, 55);
+    border: 2px solid rgb(83, 69, 55);
     color: rgb(71, 46, 18);
     padding: 10px 25px;
     text-align: center;
     font-size: 14px;
+    border-radius: 8px;
     transition-duration: 0.4s;
   }
   button:hover {
-    background-color: rgb(207, 193, 160);
-    color: rgb(71, 46, 18);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
   aside {
