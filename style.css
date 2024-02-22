@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 250, 234);
+    background-color: rgb(249, 246, 239);
   }
 
   h1{
@@ -46,16 +46,16 @@ body {
   }
 
   header {
-    background-color: rgb(207, 226, 241);
-    color:rgb(15, 56, 94);
+    background-color: rgb(214, 216, 255);
+    color:rgb(31, 55, 76);
     padding: 15px;
-    border: 3px solid rgb(50, 110, 159);
+    border: 3px solid rgb(83, 114, 139);
     font-size: 20px;
   }
 
   button {
     background-color: rgb(255, 245, 214); 
-    border: 3px solid rgb(122, 85, 45);
+    border: 3px solid rgb(83, 69, 55);
     color: rgb(71, 46, 18);
     padding: 10px 25px;
     text-align: center;
@@ -63,7 +63,7 @@ body {
     transition-duration: 0.4s;
   }
   button:hover {
-    background-color: rgb(225, 200, 137);
+    background-color: rgb(207, 193, 160);
     color: rgb(71, 46, 18);
   }
 
